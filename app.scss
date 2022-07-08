@@ -1,0 +1,69 @@
+* {
+    font-family: Nunito, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --background-color: #f5d9d5;
+    --primary-color: #ea1c2c;
+}
+
+body {
+    overflow-x: hidden;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+.navbar-brand {
+    color: var(--primary-color);
+
+}
+
+#mainNav a {
+    font-size: 1.5rem !important;
+}
+
+#title:hover {
+    color: #ea1c2c !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.titles span {
+    color: var(--primary-color)
+}
+
+.titles h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+@media (max-width: 1270px) {
+    .titles h1 {
+        font-size: 3rem;
+    }
+}
+
+.content {
+    margin-top: 2.5em;
+    font-weight: 500;
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+
+.navbar.scrolled {
+    background: #dec0de;
+    transition: all .5s;
+}
